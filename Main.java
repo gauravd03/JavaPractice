@@ -1,3 +1,7 @@
+
+//program to reverse lo ng string by converting it into array by split first
+
+
 public class Main
 {
 	public static void main(String[] args) {

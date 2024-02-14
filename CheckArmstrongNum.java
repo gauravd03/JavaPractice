@@ -14,9 +14,9 @@
 			}
 		
 		if(armsnum==num){
-		System.out.println("armstrong number");
+		System.out.println("yes, armstrong number");
 		}else{
-		System.out.println("not armstrong number");
+		System.out.println("not a armstrong number");
 
 		}
 }}

@@ -5,6 +5,8 @@ class PrintFibonaciSeries{
 			int a=0; 
 			int b=1;
 			int c=0;
+
+int k=6;
  
 			for(int i=1; i<=10; i++){
 			System.out.println(c);

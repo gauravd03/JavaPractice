@@ -1,5 +1,5 @@
 
-
+//palimdrome code
 class CheckPalimdrone{
 		public static void main (String [] args){
 			int num=232;

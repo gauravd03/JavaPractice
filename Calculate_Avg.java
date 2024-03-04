@@ -1,14 +1,18 @@
-public class Calculate_Avg{
-public static void main(String[] args) {
-        double[] numArray = { 45.3, 67.5, -45.6, 20.34, 33.0, 45.6 };
-        double sum = 0.0;
+class Calculate_Avg{
+	public static void main(String args[]){
 
-        for (double num: numArray) {
-           sum += num;
-        }
+	int [] num={2,3,5,76,45};
+	int sum=0;
+	
+	for(int a:num){
+	sum+=a;
+	}
 
-        double average = sum / numArray.length;
-System.out.format("The average is: %.2f", average);
+	double avg=sum/num.length;
+	System.out.println("Average is : " +avg);
+
+
+	//System.out.println("");
+
 }
-
 }
